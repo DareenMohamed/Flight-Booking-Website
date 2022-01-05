@@ -145,6 +145,7 @@ FrontEnd:
 
 **API reference:**
 FlightRoutes
+<br />
 Method: Get 
 URL: /allflights
 Gets all flights
@@ -202,57 +203,84 @@ Handles user’s payment for a reservation
 Method: get
 URL: “/allUsers”
 Handles user’s payment for a reservation
+<br />
+
 Method: get
 URL: “/searchUser”
 Search with criteria
+
+<br />
 Method: patch
 URL: “/user/:id”
 Updates user info
+
+<br />
 Method: post
 URL: “/login”
 Handles user logging in the system
+<br />
+
 Method: post
 URL: “/register”
 Handles user registering in the system
+<br />
+
 Method: post
 URL: “/passwordCheck”
 Checks user’s password in the DB
+
+<br />
 Method: get
 URL: “/CheckAdmin”
 Checks user’s username in the DB
+<br />
+
 Method: post
 URL: “/changePassword/:id”
 Changes user’s password in the DB
 ReservationRoutes
+<br />
+
 Method: Get
 URL: /allReservations
 Gets all present reservations
+<br />
+
 Method: Get
 URL: /reservationByID/:id
 returns certain reservations according to ID
+<br />
+
 Method: Patch
 URL: "/reserveSeats"
 Updates chosen seats to be reserved
+<br />
+
 Method: Post
 URL: "/mail”
 Send email with reservation itinerary to user
+<br />
+
 Method: Post
 URL: "/createReservation”
 Reserves a certain round trip for a certain user
+<br />
+
 Method: delete
 URL: "/reservation/:id”
 Deletes (cancels) a user’s reservation
-Tests:
-Registration:
+
+**Tests:**
+**Registration:**
 User enters his info and presses the “start booking” button, the user should then be
 redirected to the search for flights page.
-Login:
+**Login:**
 User enters username and password, he should then be redirected to the search for flights
 page.
-Search for flights:
+**Search for flights:**
 User enters flight details then presses the search button, he’s then redirected to the
 available flights according to the entered criteria
-Email:
+**Email:**
 An email should be sent to the user after completing a reservation and paying for it.
 Cancel reservation:
 After viewing his current reservations, the user can press “Cancel reservation”, this
