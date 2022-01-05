@@ -1,20 +1,29 @@
 # Flight-Booking-Website with MERN
 
-README: BeefOrChicken (BOC) Airlines
-Project Title:
 
+Project Title:
+BeefOrChicken (BOC) Airlines
 Airline Reservation System. A web application for Beef or Chicken airlines through which
 individuals can reserve and pay for flights in order to travel to different countries and
 sometimes domestic cities.
-
+<br />
 Motivation:
 This application was created to help Beef or Chicken airlines customers to search for flights,
 reserve seats, and pay for flights in order to travel to different countries and sometimes
 domestic cities easily and efficiently.
-
+<br />
 Screeshots : 
+<br />
 ![plot](./Screenshots/admin.png)
-
+<br />
+![plot](./Screenshots/account.png)
+<br />
+![plot](./Screenshots/account2.png)
+<br />
+![plot](./Screenshots/book1.png)
+<br />
+![plot](./Screenshots/book.png)
+<br />
 Build Status:
 Stripe API, used for payment, is unstable so users need to refresh the page if they encounter
 an error.
