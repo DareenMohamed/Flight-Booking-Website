@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+.form-label{
+  color: black;
+  font: 10;
+  position: relative;
+}
+.form-label{
+  color: black;
+  font: 10;
+  position: relative;
+}
+.form-labelGroup{
+  display: flex;
+  justify-content: space-between;
+}
+.form-labelLeft{
+  color: black;
+  font: 10;
+  display: flex;
+  position: relative;
+  left: 15%;
+  right: 30px;
+  text-align: left;
+}
+.form-labelRight{
+  color: black;
+  font: 10;
+  display: flex;
+  position: relative;
+  left: -20%;
+  right: 30px;
+  text-align: right;
+}
+
+.form-labelCenter{
+  color: black;
+  font: 10;
+  display: flex;
+  position: relative;
+ 
+  text-align: Center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-group {
+  font: bolder;
+  display: block;
+  
+}
+.form-group2 {
+  font: bolder;
+  display: flex;
+  
+}
+#createFlightForm{
+width: 30%;
+position: absolute;
+left: 34.5%;
+/* top: 50%; */
+}
+#createFlightForm2{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 25%; 
+  background-color: #FFFFFF;
+  border-radius: 15px 50px;
+  border: 1px outset grey;
+  padding: 20px;
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

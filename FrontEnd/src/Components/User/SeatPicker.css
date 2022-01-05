@@ -1,0 +1,87 @@
+/* 
+    .root {
+        display: flex;
+        flexWrap: 'wrap';
+        width: 500px;
+        wordWrap: "break-word";
+        marginLeft: 38%;
+        paddingTop: 10%;
+       
+    } */
+
+    .paper {
+        vertical-align: middle;
+        /* margin-top:10%; */
+        border-radius: 15px;
+        width: 353px;
+        /* padding-top: 10%; */
+        /* height: 550px; */
+        
+        overflow: "auto";
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+     .title {
+         margin-top:25%;
+        fontSize: 18,
+    }
+/*
+    .title1 {
+        fontSize: 18,
+        marginLeft: "-60%",
+
+    }
+    .TripIcon {
+        verticalAlign: 'bottom',
+        height: 200,
+        width: 20,
+        marginLeft: "0%",
+    }
+
+    .text {
+        marginLeft: "11%",
+        marginTop: "-65%",
+        width: "100%",
+        //fontSize: theme.typography.pxToRem(14),
+        height: "30%",
+
+    }
+    .text1 {
+        marginLeft: "-3%",
+        marginTop: "7%",
+        fontSize: theme.typography.pxToRem(12),
+        textAlign: "left",
+        ovarflowWrap: "break-word",
+        // overflowwrap: break-word;
+        wordwrap: "break-word",
+
+    }
+    .text2 {
+        marginLeft: "-3%",
+        marginTop: "5%",
+        fontSize: theme.typography.pxToRem(12),
+        color: '#70757A',
+        textAlign: "left",
+
+    }
+
+    .text3 {
+        marginLeft: "11%",
+        marginTop: "-3%",
+        fontSize: theme.typography.pxToRem(12),
+        // color:'#70757A',
+        textAlign: "left",
+    }
+
+    .line {
+        // length: "1",
+        // width: "100%",
+        // marginLeft: "11%",
+        marginTop: "10%",
+
+    } */
+
+  
+

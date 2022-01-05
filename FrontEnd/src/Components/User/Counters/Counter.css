@@ -1,0 +1,43 @@
+.counter2{
+    margin-top: 907px;
+    direction: flex;
+    flex: 1 1 auto;
+    flex-basis: content;
+    flex-direction: row;
+    width:50%;
+    height: 1%;
+
+}
+a{
+    /* direction: flex;
+    flex: 1 1 auto;
+    flex-basis: content;
+    flex-direction: row; */
+    font-size: 14px;
+
+}
+.counterB{
+    margin-left: 50%;
+    display: flex;
+    margin-top: -22%;
+
+}
+.sum{
+padding-top: 15%;
+}
+.DropDownResults  {
+    width: 200px;
+  
+  }
+.counter{
+    margin-top: 0px;
+    color: #818181;
+}
+.counter .small{
+    color: white;
+}
+.flexbox-container {
+    margin-top: 707px;
+    display: flex;
+    flex-direction: row;
+}

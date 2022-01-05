@@ -1,0 +1,61 @@
+
+.accordions{
+    width: 76%;
+    position: absolute;
+    left: 12%;
+    top: 130%; 
+    font-weight: bolder;
+    padding-bottom:200px ;
+}
+
+.accordions2{
+    width: 76%;
+    position: absolute;
+    left: 12%;
+    top: 200px; 
+    font-weight: bolder;
+    padding-bottom:200px ;
+}
+
+
+.accordion{
+    margin-bottom: 6%;
+    box-shadow: 0 0px 0px 0 #226AC7, 0.5px 1.5px 5px 0.5px #226AC7;
+}
+.accordionHeader{
+    padding-left: 5%;
+    width : 30%;
+/*    padding-right: 8%;
+*/  
+font-size: larger;
+    font-weight: 500;
+}
+
+.container {
+    padding: 2.5% 0.5%;
+}
+
+
+.inputbox {
+    border: none;
+    outline: none
+}
+
+.h-blue {
+    color: #226AC7;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.outline-none {
+    outline: none
+}
+
+Button {
+    font-size: medium;
+    float: left;
+    
+}
+

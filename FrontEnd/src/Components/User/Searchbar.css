@@ -1,0 +1,54 @@
+.searchInputTo {
+  
+    display: flex;
+    position: relative;
+  
+
+   
+  
+  }
+  
+  .dataResultTo {
+    position: relative;
+  
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border-color: lightblue; */
+    border-radius: 8px;
+z-index: 20;
+    
+  }
+  
+  .dataResultTo::-webkit-scrollbar {
+    display: none;
+   
+  }
+  
+  .dataResultTo .dataItem {
+    width: 100%;
+    height: 50px;
+    /* display: flex; */
+    align-items: center;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dataResultTo p {
+    margin-left: 10px;
+    color: #0C2D48;
+  }
+ a {
+    text-decoration: none !important;
+  }
+  
+  a:hover {
+    background-color: lightgrey;
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }
