@@ -1,18 +1,18 @@
 # Flight-Booking-Website with MERN
 
 
-Project Title:
+**Project Title:**
 BeefOrChicken (BOC) Airlines
 Airline Reservation System. A web application for Beef or Chicken airlines through which
 individuals can reserve and pay for flights in order to travel to different countries and
 sometimes domestic cities.
 <br />
-Motivation:
+**Motivation:**
 This application was created to help Beef or Chicken airlines customers to search for flights,
 reserve seats, and pay for flights in order to travel to different countries and sometimes
 domestic cities easily and efficiently.
 <br />
-Screeshots : 
+**Screeshots : **
 <br />
 ![plot](./Screenshots/admin.png)
 <br />
@@ -24,11 +24,11 @@ Screeshots :
 <br />
 ![plot](./Screenshots/book.png)
 <br />
-Build Status:
+**Build Status:**
 Stripe API, used for payment, is unstable so users need to refresh the page if they encounter
 an error.
 
-Code Style:
+**Code Style:**
 Standard style where we indent inside all methods / classes / functions equal indentations
 and if else & while nested blocks have extra indentations than the outside tag.
 Curly brace start right next to the methods’ signatures (inline).
@@ -41,13 +41,13 @@ Functions Length is not too long otherwise you would need to use a helper method
 Comments are added whenever possible to specify what the function/api call is used for to
 be easily understandable by future open source contributors that wish to contribute.
 
-Tech/Framework used:
+**Tech/Framework used: **
 MERN stack (MongoDB, Express JS, React JS and Node JS)
 React Bootstrap Framework
 Stripe Framework
 Material UI Framework
 
-Features:
+**Features:**
 -A user can create an account / login / view their profile / edit their profile details / change
 their password
 - Users can make their reservations in an easily understandable flow where they specify
@@ -64,7 +64,9 @@ iternary by email .
 amount
 - Users can choose to edit their reservations.
 - Admins can create , edit , delete and view all flights at any time.
-Code Examples:
+
+<br />
+**Code Examples:**
 Flight attributes:
 const flightSchema = new Schema({
 FlightNumber: {
@@ -422,25 +424,23 @@ Cancel reservation:
 After viewing his current reservations, the user can press “Cancel reservation”, this
 reservation is then cancelled and an email is sent automatically to the user with his refund
 amount.
-How to Use?
+**How to Use?**
 - Clone project to your directory
 - Open 2 terminals: frontend and backend
 - Run the command ‘cd backend’ in the backend terminal and run “node app.js”
 - Run the command ‘cd frontend’ in the frontend terminal and run “npm start”
 - A browser tab will be automatically opened
 - The website is ready to be used at http://localhost:3000/
-Contribute:
+**Contribute:**
 You can contribute and help out.
 A guideline on how to contribute:
 Any one is free to clone the repo on github to contribute (can open a pull request that
 will be accepted by the contributors as soon as possible) 
 and they can start developing new features and push them to a new branch that will
 later be merged to the main to be used later on.
-Credits:
-Mark Sroor
+**Credits:**
 Dareen Mohamed
+Mark Sroor
 Lougina Hatim
 Carol Emad
 Yasmine Elfares
-License:
-permissive MIT license
