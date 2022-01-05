@@ -203,8 +203,8 @@ Handles user’s payment for a reservation
 Method: get
 URL: “/allUsers”
 Handles user’s payment for a reservation
-<br />
 
+<br />
 Method: get
 URL: “/searchUser”
 Search with criteria
@@ -218,13 +218,13 @@ Updates user info
 Method: post
 URL: “/login”
 Handles user logging in the system
-<br />
 
+<br />
 Method: post
 URL: “/register”
 Handles user registering in the system
-<br />
 
+<br />
 Method: post
 URL: “/passwordCheck”
 Checks user’s password in the DB
@@ -233,14 +233,14 @@ Checks user’s password in the DB
 Method: get
 URL: “/CheckAdmin”
 Checks user’s username in the DB
-<br />
 
+<br />
 Method: post
 URL: “/changePassword/:id”
 Changes user’s password in the DB
 ReservationRoutes
-<br />
 
+<br />
 Method: Get
 URL: /allReservations
 Gets all present reservations
