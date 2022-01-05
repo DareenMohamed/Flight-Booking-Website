@@ -2,20 +2,20 @@
 
 README: BeefOrChicken (BOC) Airlines
 Project Title:
+
 Airline Reservation System. A web application for Beef or Chicken airlines through which
 individuals can reserve and pay for flights in order to travel to different countries and
 sometimes domestic cities.
+
 Motivation:
 This application was created to help Beef or Chicken airlines customers to search for flights,
 reserve seats, and pay for flights in order to travel to different countries and sometimes
 domestic cities easily and efficiently.
+
 Build Status:
 Stripe API, used for payment, is unstable so users need to refresh the page if they encounter
 an error.
-Screenshots:
-Users:
 
-Admin:
 Code Style:
 Standard style where we indent inside all methods / classes / functions equal indentations
 and if else & while nested blocks have extra indentations than the outside tag.
@@ -28,11 +28,13 @@ Errors return with a descriptive message of the error source
 Functions Length is not too long otherwise you would need to use a helper method
 Comments are added whenever possible to specify what the function/api call is used for to
 be easily understandable by future open source contributors that wish to contribute.
+
 Tech/Framework used:
 MERN stack (MongoDB, Express JS, React JS and Node JS)
 React Bootstrap Framework
 Stripe Framework
 Material UI Framework
+
 Features:
 -A user can create an account / login / view their profile / edit their profile details / change
 their password
