@@ -12,6 +12,9 @@ This application was created to help Beef or Chicken airlines customers to searc
 reserve seats, and pay for flights in order to travel to different countries and sometimes
 domestic cities easily and efficiently.
 
+Screeshots : 
+![plot](./Screenshots/admin.png)
+
 Build Status:
 Stripe API, used for payment, is unstable so users need to refresh the page if they encounter
 an error.
