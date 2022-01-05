@@ -12,7 +12,7 @@ This application was created to help Beef or Chicken airlines customers to searc
 reserve seats, and pay for flights in order to travel to different countries and sometimes
 domestic cities easily and efficiently.
 <br />
-**Screeshots : **
+**Screeshots:**
 <br />
 ![plot](./Screenshots/admin.png)
 <br />
@@ -41,7 +41,7 @@ Functions Length is not too long otherwise you would need to use a helper method
 Comments are added whenever possible to specify what the function/api call is used for to
 be easily understandable by future open source contributors that wish to contribute.
 
-**Tech/Framework used: **
+**Tech/Framework used:**
 MERN stack (MongoDB, Express JS, React JS and Node JS)
 React Bootstrap Framework
 Stripe Framework
@@ -66,196 +66,9 @@ amount
 - Admins can create , edit , delete and view all flights at any time.
 
 <br />
-**Code Examples:**
-Flight attributes:
-const flightSchema = new Schema({
-FlightNumber: {
-unique:true,
-type: String,
-required: true
-},
-From: {
-type: String,
-required: true,
-},
-To: {
-type: String,
-required: true
-},
-DepartureDate: {
-type: Date,
-required: true,
-},
-ArrivalDate: {
-type: Date,
-required: true,
-},
-EconomySeats: {
-type: Number,
-required: true
-},
-BusinessSeats: {
-type: Number,
-required: true
-},
-FirstSeats: {
-type: Number,
-required: true
-},
-EconomyBags: {
-type: Number,
-required: true
-},
-BusinessBags: {
-type: Number,
-required: true
-},
-FirstBags: {
-type: Number,
-required: true
-},
-PriceEconomy: {
-type: mongoose.Decimal128,
-required: true
-},
-PriceBusiness: {
-type: mongoose.Decimal128,
-required: true
-},
-PriceFirst: {
-type: mongoose.Decimal128,
-required: true
-},
-DepartureTime: {
-type: String,
-required: true
-},
-ArrivalTime: {
-type: String,
-required: true
-},
-RemEconomy: {
-type: Number,
-required: true
-},
-RemBusiness: {
-type: Number,
-required: true
-},
-RemFirst: {
-type: Number,
-required: true
-},
-EconomySeatsArray:{
-type:Array,
-required:true
-},
-BusinessSeatsArray:{
-type:Array,
-required:true
-},
-FirstSeatsArray:{
-type:Array,
-required:true
-},
-}, { timestamps: true });
-Reservation schema:
-const reservationSchema = new Schema({
-UserID: {
-type: String,
-required: true,
-},
-DepartureFlightID: {
-type: String,
-required: true
-},
-ReturnFlightID: {
-type: String,
-required: true
-},
-CabinType: {
-type: String,
-required: true
-},
-TakenSeatsDeparting: {
-type: Array,
-required: false,
-},
-TakenSeatsArriving: {
-type: Array,
-required: false,
-},
-TotalPrice: {
-type: mongoose.Decimal128,
-required: true,
-},
-//ReservationNumber: {
-// type: String,
-//required: true,
-//},
-Children: {
-type: Number,
-required: true,
-},
-Adults: {
-type: Number,
-required: true,
-},
-Number:{
-type: String,
-required:true,
-}
-}, { timestamps: true });
-User Attributes:
-username: {
-unique:true,
-type: String,
-required: true,
-},
-email: {
-type: String,
-required: true,
-},
-password: {
-type: String,
-required: true
-},
-type: {
-type: Number,
-required: true
-},
-firstName: {
-type: String,
-required: true
-},
-lastName: {
-type: String,
-required: true
-},
-passportNumber: {
-type: String,
-required: true
-},
-reservations: {
-type: Array,
-required: true
-},
-address: {
-type: String,
-required: false
-},
-telephone1: {
-type: String,
-required: true
-},
-telephone2: {
-type: String,
-required: false
-},
-}, { timestamps: true });
-Installation:
+**Installation:**
 Necessary node modules:
-BackEnd:
+**BackEnd:**
 "axios": "^0.24.0",
 "bcrypt": "^5.0.1",
 "body-parser": "^1.19.0",
@@ -329,42 +142,63 @@ FrontEnd:
 "stripe": "^8.195.0",
 "styled-components": "^5.3.3",
 "web-vitals": "^1.0.1"
-API reference:
+
+**API reference:**
 FlightRoutes
-Method: Get
+Method: Get 
 URL: /allflights
 Gets all flights
+<br />
 Method: POST
 URL: /searchUser
 Search for a user by email and password
+<br />
 Method: Get
 URL: "/searchUserByID/:id"
 Search for a user by their id
+<br />
+
 Method: Get
 URL: "/flightById/:id"
 Search for a flight by its id
+<br />
+
 Method: POST
 URL: "/searchFlights"
 Search for flights with criteria
+<br />
+
 Method: POST
 URL: "/searchAvailableFlights"
 Search for available flights with criteria
+<br />
+
 Method: POST
 URL: "/createFlight"
 Create a flight
+<br />
+
 Method: Patch
 URL: "/flightSeats/:id"
 Updates seats in a flight
+<br />
+
 Method: Patch
 URL: "/flight/:id"
 Updates flight
+<br />
+
 Method: delete
 URL: "/flight/:id”
 Deletes (cancels) a flight
 UserRoutes
+<br />
+
 Method: Post
 URL: “/payment”
 Handles user’s payment for a reservation
+
+<br />
 Method: get
 URL: “/allUsers”
 Handles user’s payment for a reservation
